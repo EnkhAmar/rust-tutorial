@@ -8,4 +8,8 @@ fn main() {
     let b = 0.2;
 
     println!("a + b = {}", a + b);
+
+    let spaces = "   ";
+    let spaces = spaces.len();
+    println!("Number of spaces: {spaces}");
 }
